@@ -12,6 +12,10 @@ const Links = [
         path: '/about'
     },
     {
+        name: "Gallery",
+        path: '/gallery'
+    },
+    {
         name: "Driverless",
         path: '/driverless'
     },
@@ -33,7 +37,6 @@ const Nav = () => {
     const pathname = usePathname();
     console.log(pathname)
 
-
     return (
         <nav className="flex gap-8">
             {Links.map((link, index) => {
@@ -45,4 +48,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Nav;
