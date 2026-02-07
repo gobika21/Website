@@ -12,10 +12,6 @@ const Links = [
         path: '/about'
     },
     {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
         name: "Driverless",
         path: '/driverless'
     },
